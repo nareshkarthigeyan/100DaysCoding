@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/CS/100DayCoding",
-      "program": "d:/CS/100DayCoding/build/Debug/outDebug",
+      "cwd": "d:/CS/100DayCoding/C",
+      "program": "d:/CS/100DayCoding/C/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
