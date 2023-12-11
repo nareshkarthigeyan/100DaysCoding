@@ -13,11 +13,9 @@ dwx = diff(w, x)
 dwy = diff(w, y)
 dwz = diff(w, z)
 
-# Create the Jacobian matrix
 J = Matrix([[dux, duy, duz], [dvx, dvy, dvz], [dwx, dwy, dwz]])
 print("The Jacobian Matrix is: \n")
 print(J)
 
-# Calculate the dot product of the Jacobian matrix
 Jac = dot(J, J)
 print("\n\n J =", Jac.doit())
