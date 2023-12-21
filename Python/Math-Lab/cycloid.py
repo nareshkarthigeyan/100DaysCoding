@@ -10,7 +10,7 @@ def cycloid(r):
         x.append(r*(theta - np.sin(theta)))
         y.append(r*(1-np.cos(theta)))
     plt.plot(x, y)
-    plt.show()
-    cycloid(2)
+plt.show()
+cycloid(2)
 
 
